@@ -9,10 +9,10 @@ Webpack is also used here, and [WebpackObfuscator](https://github.com/javascript
 
 ### 🔋 Getting Started
 
-You **don’t** need to install or configure Webpack.<br>
+You **don’t** need to configure Webpack.<br>
 Webpack comes in preconfigured, so that you can focus on the code.
 
-Just clone this repo, and you’re good to go.
+Just clone this repo, run `npm i` and you’re good to go.
 
 ## 🗃️ Project Structure
 

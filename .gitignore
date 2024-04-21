@@ -1,0 +1,17 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+*.beam
+*.ez
+erl_crash.dump
+
+npm-debug.log*
+
+# packed files
+/release

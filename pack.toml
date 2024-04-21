@@ -1,0 +1,28 @@
+ignore = [
+    # source
+    "/src",
+    "/test",
+
+    # dependencies
+    "/config",
+    "/node_modules",
+
+    # production
+    "/build",
+
+    # misc
+    "/.github",
+    ".gitignore",
+
+    "*.toml",
+    "*.beam",
+    "*.ez",
+    "pack.*",
+    "erl_crash.dump",
+
+    "package*.json",
+    "npm-debug.log*",
+
+    # packed files
+    "/release",
+]

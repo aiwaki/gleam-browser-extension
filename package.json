@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A template for Gleam browser extensions.",
+  "private": true,
+  "scripts": {
+    "watch": "gleam run -m lustre/dev start && webpack --mode=development --watch --config config/webpack.config.mjs",
+    "build": "gleam run -m lustre/dev build app && webpack --mode=production --config config/webpack.config.mjs",
+    "pack": "node pack.mjs",
+    "repack": "npm run build && npm run pack"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.10.0",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "minimatch": "^9.0.4"
+  }
+}

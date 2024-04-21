@@ -12,7 +12,7 @@ Webpack is also used here, and [WebpackObfuscator](https://github.com/javascript
 You **don’t** need to install or configure Webpack.<br>
 Webpack comes in preconfigured, so that you can focus on the code.
 
-Just clone this project, and you’re good to go.
+Just clone this repo, and you’re good to go.
 
 ## 🗃️ Project Structure
 

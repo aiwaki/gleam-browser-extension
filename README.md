@@ -14,7 +14,7 @@ Webpack comes in preconfigured, so that you can focus on the code.
 
 Just clone this project, and you’re good to go.
 
-## 🗃️ Project structure
+## 🗃️ Project Structure
 
 Current project structure:
 
@@ -32,7 +32,7 @@ gleam-browser-extension
 ├── pack.mjs
 ├── pack.toml
 ├── .gitignore
-├── config                    // Webpack with minimal configurations
+├── config                    // Webpack with minimal configurations.
 │   ├── paths.mjs
 │   ├── webpack.common.mjs
 │   └── webpack.config.mjs
@@ -42,11 +42,11 @@ gleam-browser-extension
 │   │   ├── icon_32.png
 │   │   ├── icon_48.png
 │   │   └── icon_128.png
-│   └── app.mjs               // Compiled app
+│   └── app.mjs               // Compiled app.
 ├── test 
-│   └── *.gleam               // Gleam test files
+│   └── *.gleam               // Gleam test files.
 └── src
-    └── *.gleam               // Gleam source files
+    └── *.gleam               // Gleam source files.
 ```
 
 ## 📝 Usage

@@ -69,7 +69,7 @@ Or just open [localhost:1234](http://localhost:1234).
 
 Builds the app for production.<br>
 Run `npm run pack` to
-copy just the extension files into the `release` folder and your app will be ready to publish to the Chrome Web Store.<br>
+copy just the extension files into the `release` folder.<br>
 
 ### `npm run pack`
 
